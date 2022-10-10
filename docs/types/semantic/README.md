@@ -8,7 +8,11 @@ import DocCardList from '@theme/DocCardList';
 
 ## Naming Convention
 
-일반적으로 소문자로 시작하는 `camelCase` 이름을 가집니다.
+일반적으로 대문자로 시작하는 `PascalCase` 이름을 가집니다.
+
+다만 두문자어(약어)의 경우 모두 대문자로만 이루어진 `SCREAMING_SNAKE_CASE` 를 사용할 수 있습니다.
+
+예를 들어 [UUID](./UUID.md)의 경우, `Uuid` 가 아닌 `UUID` 라는 이름을 그대로 사용합니다.
 
 ## List
 
