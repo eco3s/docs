@@ -25,7 +25,7 @@
 
 :::info array type
 
-[User](../../types/schema/User.md)의 배열이 반환됩니다.
+[User](../../types/schema/user.md)의 배열이 반환됩니다.
 
 :::
 

@@ -1,4 +1,6 @@
-하나의 [Post](../../types/schema/Post.md) 가 소속될 수 있는 카테고리를 나타냅니다.
+# Category
+
+하나의 [Post](../../types/schema/post.md) 가 소속될 수 있는 카테고리를 나타냅니다.
 
 미리 정해진 값들 중에서 선택되는 `enum` 타입입니다.
 

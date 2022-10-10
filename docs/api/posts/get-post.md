@@ -8,7 +8,7 @@
 
 | Name | Type                                 | Note                  | Example                   |
 | ---- | ------------------------------------ | --------------------- | ------------------------- |
-| id   | [UUID](../../types/semantic/UUID.md) | 찾고자 하는 글의 UUID | `"R_-bYVt79M-2yroviNPei"` |
+| id   | [UUID](../../types/semantic/uuid.md) | 찾고자 하는 글의 UUID | `"R_-bYVt79M-2yroviNPei"` |
 
 ## Response
 
@@ -16,7 +16,7 @@
 
 :::info type
 
-[Post](../../types/schema/Post) 를 가져옵니다.
+[Post](../../types/schema/post.md) 를 가져옵니다.
 
 :::
 

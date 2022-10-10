@@ -8,13 +8,13 @@
 
 ### Query
 
-| Name     | Type                                        | Note                           | Example                 | Required | Default  | Limit             |
-| -------- | ------------------------------------------- | ------------------------------ | ----------------------- | -------- | -------- | ----------------- |
-| limit    | [integer](../../types/primitive/integer.md) | 한번에 가져올 글 갯수          | `50`                    | false    | $\infty$ | $0\leq n\leq1024$ |
-| skip     | [integer](../../types/primitive/integer.md) | 한번에 건너뛸 글 갯수          | `20`                    | false    | `0`      | $0\leq n$         |
-| author   | [UUID](../../types/semantic/UUID.md)        | 특정 유저가 작성한 글만 검색   | `kw9_EumIWFWqJUPPm32CD` | false    |          |                   |
-| category | [Category](../../types/semantic/Category)   | 특정 카테고리에 있는 글만 검색 | `"qa"`                  | false    |          |                   |
-| asc      | [boolean](../../types/primitive/boolean)    | 오름차순으로 정렬할지 여부     | `true`                  | false    | `false`  |                   |
+| Name     | Type                                         | Note                           | Example                 | Required | Default  | Limit             |
+| -------- | -------------------------------------------- | ------------------------------ | ----------------------- | -------- | -------- | ----------------- |
+| limit    | [integer](../../types/primitive/integer.md)  | 한번에 가져올 글 갯수          | `50`                    | false    | $\infty$ | $0\leq n\leq1024$ |
+| skip     | [integer](../../types/primitive/integer.md)  | 한번에 건너뛸 글 갯수          | `20`                    | false    | `0`      | $0\leq n$         |
+| author   | [UUID](../../types/semantic/uuid.md)         | 특정 유저가 작성한 글만 검색   | `kw9_EumIWFWqJUPPm32CD` | false    |          |                   |
+| category | [Category](../../types/semantic/category.md) | 특정 카테고리에 있는 글만 검색 | `"qa"`                  | false    |          |                   |
+| asc      | [boolean](../../types/primitive/boolean.md)  | 오름차순으로 정렬할지 여부     | `true`                  | false    | `false`  |                   |
 
 #### limit
 
@@ -56,7 +56,7 @@
 
 :::info array type
 
-[PostPreview](../../types/schema/PostPreview)의 배열이 반환됩니다.
+[PostPreview](../../types/schema/post-preview.md)의 배열이 반환됩니다.
 
 :::
 
