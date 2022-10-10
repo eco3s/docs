@@ -15,7 +15,7 @@
 | Name  | Type                                        | Note                  | Example | Required | Default  | Limit             |
 | ----- | ------------------------------------------- | --------------------- | ------- | -------- | -------- | ----------------- |
 | limit | [integer](../../types/primitive/integer.md) | 한번에 가져올 유저 수 | `50`    | false    | $\infty$ | $0\leq n\leq1024$ |
-| skip  | [integer](../../types/primitive/integer.md) | 한번에 건너뛸 유저 수 | `20`    | false    | $\infty$ | $0\leq n$         |
+| skip  | [integer](../../types/primitive/integer.md) | 한번에 건너뛸 유저 수 | `20`    | false    | `0`      | $0\leq n$         |
 
 `limit`과 `skip`으로 pagination을 구현할 수 있습니다.
 

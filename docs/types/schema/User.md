@@ -5,7 +5,7 @@
 | Name      | Type                                      | Note                                   | Modifiable | Example                   |
 | --------- | ----------------------------------------- | -------------------------------------- | ---------- | ------------------------- |
 | id        | [UUID](../../types/semantic/UUID.md)      | 해당 유저의 UUID                       | false      | `"R_-bYVt79M-2yroviNPei"` |
-| createdAt | [Date](../../types/semantic/Date.md)      | 해당 유저가 가입한 시간                | false      | `1665406780677`           |
+| createdAt | [Date](../../types/semantic/Date.md)      | 해당 유저가 가입한 시간                | false      | `1665406780`              |
 | name      | [string](../../types/primitive/string.md) | 해당 유저의 닉네임                     | true       | `"sinbe3673"`             |
 | profile   | [Image](../../types/semantic/Image.md)    | 해당 유저의 프로필 사진을 가리키는 URL | false      | (하단 예제 참고)          |
 
