@@ -23,7 +23,11 @@
 
 ### Success
 
-`User`의 배열이 반환됩니다.
+:::info array type
+
+[User](../../types/schema/User.md)의 배열이 반환됩니다.
+
+:::
 
 ### Possible Errors
 
