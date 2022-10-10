@@ -18,6 +18,6 @@
 | 아무 제약이 없는 경우                           | $\left(-\infty,+\infty\right)$ | $n$ (생략 가능) | $n$          |
 | 값이 정해져 있는 경우                           | $\left[a,a\right]$             | $n=a$           | $n=3$        |
 | 특정 값보다 큰 값이 주어져야 하는 경우          | $\left(a,+\infty\right)$       | $a<n$           | $0<n$        |
-| 특정 값보다 크거나 작은 값이 주어져야 하는 경우 | $\left[a,+\infty\right)$       | $a\leq n$       | $5\leq n$    |
+| 특정 값보다 크거나 같은 값이 주어져야 하는 경우 | $\left[a,+\infty\right)$       | $a\leq n$       | $5\leq n$    |
 | 특정 값보다 작은 값이 주어져야 하는 경우        | $\left(-\infty,b\right)$       | $n<b$           | $n<10$       |
 | 특정 값보다 작거나 같은 값이 주어져야 하는 경우 | $\left(-\infty,b\right]$       | $n\leq b$       | $n\leq 1024$ |
