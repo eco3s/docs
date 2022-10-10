@@ -1,0 +1,15 @@
+import DocCardList from '@theme/DocCardList';
+
+# Semantic Types
+
+고유한 타입으로 취급하지만 API등 데이터 전송시 다른 primitive type으로 변환이 불가피한 자료형을 의미합니다.
+
+예를 들어 `Date` 타입은 내부적으로 각 언어와 DB에 맞는 적절한 날짜 자료형을 사용할 수 있지만 JSON이 이 Date형식을 지원하지 않으므로 전송시 UNIX 타임스탬프로 변환 후 실제로는 [integer](../primitive/integer.md) 타입으로 정보를 주고받습니다.
+
+## Naming Convention
+
+일반적으로 소문자로 시작하는 `camelCase` 이름을 가집니다.
+
+## List
+
+<DocCardList />
