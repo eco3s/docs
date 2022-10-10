@@ -10,7 +10,7 @@ const config = {
 	tagline:
 		'Eco3s는 국내의 생태계 유해종을 발견하고 관련 정보를 손쉽게 공유할 수 있는 서비스입니다.',
 	url: 'https://eco3s.github.io/',
-	baseUrl: '/',
+	baseUrl: '/docs/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 
