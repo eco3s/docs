@@ -18,10 +18,10 @@ const config = {
 
 	favicon: 'img/favicon.ico',
 
-	// i18n: {
-	// 	defaultLocale: 'ko-kr',
-	// 	locales: ['ko-kr'],
-	// },
+	i18n: {
+		defaultLocale: 'ko-kr',
+		locales: ['ko-kr'],
+	},
 
 	presets: [
 		[
