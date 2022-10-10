@@ -1,0 +1,19 @@
+/**
+ * original code: https://github.com/facebook/docusaurus/blob/main/website/src/components/APITable/styles.module.css
+ */
+
+.apiTable {
+	font-size: small;
+}
+
+.apiTable tbody tr {
+	transition: box-shadow 0.2s;
+}
+
+.apiTable tbody tr:focus,
+.apiTable tbody tr:hover {
+	outline: none;
+	box-shadow: 0 0 7px 0 inset var(--ifm-color-warning);
+	cursor: pointer;
+	transition: box-shadow 0.2s;
+}
