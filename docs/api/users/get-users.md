@@ -28,4 +28,3 @@
 ### Possible Errors
 
 -   400
--   404
