@@ -57,6 +57,11 @@ const config = {
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
+			docs: {
+				sidebar: {
+					hideable: true,
+				},
+			},
 			navbar: {
 				title: 'Eco3s',
 				logo: {
@@ -133,6 +138,9 @@ const config = {
 			colorMode: {
 				defaultMode: 'dark',
 				respectPrefersColorScheme: true,
+			},
+			tableOfContents: {
+				maxHeadingLevel: 5,
 			},
 		}),
 }
