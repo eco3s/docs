@@ -1,3 +1,9 @@
+---
+tags:
+    - Semantic Types
+    - string
+---
+
 # Image
 
 이미지를 나타내는 타입입니다.

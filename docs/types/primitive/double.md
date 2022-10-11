@@ -1,3 +1,9 @@
+---
+tags:
+    - Primtive Types
+    - Number
+---
+
 부동소수점 자료형을 표현합니다.
 
 [integer](./integer.md)의 경우 정수를 표현할 수 있지만 소수점이 들어가는 실수를 표현할 수 없습니다.

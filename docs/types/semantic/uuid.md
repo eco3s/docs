@@ -1,3 +1,9 @@
+---
+tags:
+    - Semantic Types
+    - string
+---
+
 # UUID
 
 어느 장소, 어느 때에서나 반드시 고유한 식별자 타입입니다.

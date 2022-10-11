@@ -1,3 +1,8 @@
+---
+tags:
+    - Schema
+---
+
 # Post
 
 import APITable from '@site/src/components/APITable';

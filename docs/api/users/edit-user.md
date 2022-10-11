@@ -2,6 +2,7 @@
 title: PATCH /users/{id}
 tags:
     - PATCH
+    - Auth Required
 ---
 
 자신의 정보를 수정합니다.

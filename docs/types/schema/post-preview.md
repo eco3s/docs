@@ -1,3 +1,9 @@
+---
+tags:
+    - Schema
+    - Subset
+---
+
 # PostPreview
 
 하나의 [Post](./post.md)를 요약해서 보여주는 자료형입니다.

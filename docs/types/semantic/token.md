@@ -1,3 +1,9 @@
+---
+tags:
+    - Semantic Types
+    - string
+---
+
 # Token
 
 [JWT](https://jwt.io) 토큰을 나타내는 자료형입니다.

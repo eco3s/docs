@@ -1,3 +1,10 @@
+---
+tags:
+    - Semantic Types
+    - string
+    - Enum
+---
+
 # Category
 
 하나의 [Post](../../types/schema/post.md) 가 소속될 수 있는 카테고리를 나타냅니다.

@@ -1,3 +1,9 @@
+---
+tags:
+    - Primtive Types
+    - string
+---
+
 문자열 타입입니다.
 
 ## Notation

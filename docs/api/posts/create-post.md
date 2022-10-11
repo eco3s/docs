@@ -1,6 +1,7 @@
 ---
 tags:
     - POST
+    - Auth Required
 ---
 
 # POST /posts

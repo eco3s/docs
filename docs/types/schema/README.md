@@ -1,3 +1,8 @@
+---
+tags:
+    - Category
+---
+
 import DocCardList from '@theme/DocCardList';
 
 # Schema Types

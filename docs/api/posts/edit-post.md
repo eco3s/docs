@@ -2,6 +2,7 @@
 title: PATCH /posts/{id}
 tags:
     - PATCH
+    - Auth Required
 ---
 
 자신이 작성한 글을 수정합니다.

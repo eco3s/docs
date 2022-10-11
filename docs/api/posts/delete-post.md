@@ -2,6 +2,7 @@
 title: DELETE /posts/{id}
 tags:
     - DELETE
+    - Auth Required
 ---
 
 특정 글을 삭제합니다.

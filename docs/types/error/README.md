@@ -1,3 +1,8 @@
+---
+tags:
+    - Category
+---
+
 import APITable from '@site/src/components/APITable';
 
 # Error

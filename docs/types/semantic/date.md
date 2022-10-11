@@ -1,3 +1,9 @@
+---
+tags:
+    - Semantic Types
+    - integer
+---
+
 # Date
 
 날짜와 시간을 **같이** 저장하는 자료형입니다.

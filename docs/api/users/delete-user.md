@@ -2,6 +2,7 @@
 title: DELETE /users/{id}
 tags:
     - DELETE
+    - Auth Required
 ---
 
 자신의 계정을 삭제합니다.
