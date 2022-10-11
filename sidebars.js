@@ -35,6 +35,7 @@ const sidebars = {
 					},
 					items: [
 						'types/semantic/uuid',
+						'types/semantic/token',
 						'types/semantic/date',
 						'types/semantic/image',
 						'types/semantic/category',
