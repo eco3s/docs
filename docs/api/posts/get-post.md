@@ -1,4 +1,6 @@
-# GET /posts/(id)
+---
+title: GET /posts/{id}
+---
 
 `id`를 통해 특정 글을 불러옵니다.
 

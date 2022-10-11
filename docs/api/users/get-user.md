@@ -1,4 +1,6 @@
-# GET /users/(id)
+---
+title: GET /users/{id}
+---
 
 `id`를 통해 특정 유저를 가져옵니다.
 
