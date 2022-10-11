@@ -30,6 +30,7 @@ const config = {
 			({
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
+					sidebarCollapsed: false,
 					// editUrl:
 					// 	'https://github.com/eco3s/docs/tree/main/packages/create-docusaurus/templates/shared/',
 					routeBasePath: '/',
