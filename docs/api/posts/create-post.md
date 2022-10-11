@@ -1,3 +1,8 @@
+---
+tags:
+    - POST
+---
+
 # POST /posts
 
 새 글을 작성합니다.

@@ -1,5 +1,7 @@
 ---
 title: GET /posts/{id}
+tags:
+    - GET
 ---
 
 `id`를 통해 특정 글을 불러옵니다.

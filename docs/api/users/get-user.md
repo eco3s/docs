@@ -1,5 +1,7 @@
 ---
 title: GET /users/{id}
+tags:
+    - GET
 ---
 
 `id`를 통해 특정 유저를 가져옵니다.
