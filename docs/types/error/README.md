@@ -12,10 +12,15 @@ import APITable from '@site/src/components/APITable';
 
 | Name                | Type                                                          | Note               | Example                 |
 | ------------------- | ------------------------------------------------------------- | ------------------ | ----------------------- |
+| [at](#at)           | [Date](../semantic/date.md)                                   | 에러가 발생한 시각 |                         |
 | [status](#status)   | Enum<[integer](../../types/primitive/integer.md)> (하단 참고) | HTTP 상태 코드     | `404`                   |
 | [type](#error-type) | Enum<[string](../../types/primitive/string.md)> (하단 참고)   | 발생한 에러의 종류 | `"PageNotFound"`        |
-| [message](#message) | [string](../../types/primitive/string.md)                     | 에러 메세지        | `"could not find page"` |
 | [payload](#payload) | (각 [type](#type)에 따라 다름, 하단 참고)                     | 에러 데이터        |                         |
+| [message](#message) | [string](../../types/primitive/string.md)                     | 에러 메세지        | `"could not find page"` |
+
+### at
+
+서버 기준으로 해당 에러가 발생한 시각을 의미합니다.
 
 ### status
 
@@ -32,18 +37,6 @@ import APITable from '@site/src/components/APITable';
 | `403` | [Forbidden](https://developer.mozilla.org/docs/Web/HTTP/Status/403)             | 사용자가 로그인을 했지만 API를 실행하기 위한 권한이 부족할 때 발생합니다.<br />예를 들어 한 사용자가 다른 사용자가 작성한 글을 지우려고 한다면 해당 에러가 발생할 수 있습니다. |
 | `404` | [Not Found](https://developer.mozilla.org/docs/Web/HTTP/Status/404)             | 요청한 값이 없을 때 발생합니다. 예를 들어 작성된 적 없거나 삭제된 글을 조회하려 한다면 해당 에러가 발생할 수 있습니다.                                                         |
 | `500` | [Internal Server Error](https://developer.mozilla.org/docs/Web/HTTP/Status/500) | 서버에서 에러를 적절히 처리하지 못했을 때 발생합니다.                                                                                                                          |
-
-### message
-
-사람이 읽을 수 있는 형태의 문자열 에러 메세지입니다.
-
-:::caution
-
-해당 에러 메세지를 파싱하지 마세요.
-
-에러의 종류는 [type](#error-type)으로 파악할 수 있습니다.
-
-:::
 
 ### type {#error-type}
 
@@ -64,7 +57,7 @@ import APITable from '@site/src/components/APITable';
 | `Error`          | 알 수 없는 종류의 에러가 발생하였습니다.               |                   | `null`              |
 | `ServerError`    | 서버 내부에서 에러가 발생하였습니다.                   | 500               | `null`              |
 | `BadRequest`     | 클라이언트의 요청을 처리하던 중 에러가 발생하였습니다. | 400               | `null`              |
-| `WrongEndpoint`  | 존재하지 않는 엔드포인트를 호출하였습니다.             | 400               | (설명 참고)         |
+| `WrongEndpoint`  | 존재하지 않는 엔드포인트를 호출하였습니다.             | 400               | `null`              |
 | `RequestInvalid` | 요청이 올바르지 않습니다.                              | 400               | `null`              |
 | `TokenRequired`  | 인증을 위해 필요한 토큰이 누락되었습니다.              | 401               | `null`              |
 | `TokenInvalid`   | 전달된 토큰이 올바르지 않습니다.                       | 401               | `null`              |
@@ -86,3 +79,15 @@ import APITable from '@site/src/components/APITable';
 | ----------- | ------------- |
 | `null`      | 페이로드 없음 |
 | `T != null` | 페이로드 있음 |
+
+### message
+
+사람이 읽을 수 있는 형태의 문자열 에러 메세지입니다.
+
+:::caution
+
+해당 에러 메세지를 파싱하지 마세요.
+
+에러의 종류는 [type](#error-type)으로 파악할 수 있습니다.
+
+:::
