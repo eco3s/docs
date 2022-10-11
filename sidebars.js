@@ -53,6 +53,15 @@ const sidebars = {
 						'types/schema/post-preview',
 					],
 				},
+				{
+					type: 'category',
+					label: 'Error',
+					link: {
+						type: 'doc',
+						id: 'types/error/README',
+					},
+					items: [],
+				},
 			],
 		},
 		{
