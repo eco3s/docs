@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[881],{4738:s=>{s.exports=JSON.parse('{"label":"POST","permalink":"/docs/tags/post","allTagsPath":"/docs/tags","count":1,"items":[{"id":"api/posts/create-post","title":"POST /posts","description":"\uc0c8 \uae00\uc744 \uc791\uc131\ud569\ub2c8\ub2e4.","permalink":"/docs/api/posts/create-post"}]}')}}]);
