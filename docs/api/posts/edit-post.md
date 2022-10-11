@@ -28,11 +28,17 @@ tags:
 
 ### Body
 
-| Name                                            | Type                                         | Note                      | Required |
-| ----------------------------------------------- | -------------------------------------------- | ------------------------- | -------- |
-| [title](../../types/schema/post.md#title)       | [string](../../types/primitive/string.md)    | 새로 변경할 제목          | false    |
-| [content](../../types/schema/post.md#content)   | [string](../../types/primitive/string.md)    | 새로 변경할 내용          | false    |
-| [category](../../types/schema/post.md#category) | [Category](../../types/semantic/category.md) | 새로 글이 분류될 카테고리 | false    |
+:::note
+
+이 타입은 [Post](../../types/schema/post.md)의 부분 타입(Subset)입니다.
+
+:::
+
+| Name                                            | Type                                         | Note                      |
+| ----------------------------------------------- | -------------------------------------------- | ------------------------- |
+| [title](../../types/schema/post.md#title)       | [string](../../types/primitive/string.md)    | 새로 변경할 제목          |
+| [content](../../types/schema/post.md#content)   | [string](../../types/primitive/string.md)    | 새로 변경할 내용          |
+| [category](../../types/schema/post.md#category) | [Category](../../types/semantic/category.md) | 새로 글이 분류될 카테고리 |
 
 모든 필드는 필수가 아닙니다. 수정하고자 하는 필드만 넣을 수 있습니다.
 
