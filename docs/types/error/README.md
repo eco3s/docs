@@ -10,12 +10,12 @@ import APITable from '@site/src/components/APITable';
 
 ## Type
 
-| Name                | Type                                                         | Note               | Example                 |
-| ------------------- | ------------------------------------------------------------ | ------------------ | ----------------------- |
-| [status](#status)   | [integer](../../types/primitive/integer.md) enum (하단 참고) | HTTP 상태 코드     | `404`                   |
-| [type](#error-type) | [string](../../types/primitive/string.md) enum (하단 참고)   | 발생한 에러의 종류 | `"PageNotFound"`        |
-| [message](#message) | [string](../../types/primitive/string.md)                    | 에러 메세지        | `"could not find page"` |
-| [payload](#payload) | (각 [type](#type)에 따라 다름, 하단 참고)                    | 에러 데이터        |                         |
+| Name                | Type                                                          | Note               | Example                 |
+| ------------------- | ------------------------------------------------------------- | ------------------ | ----------------------- |
+| [status](#status)   | Enum<[integer](../../types/primitive/integer.md)> (하단 참고) | HTTP 상태 코드     | `404`                   |
+| [type](#error-type) | Enum<[string](../../types/primitive/string.md)> (하단 참고)   | 발생한 에러의 종류 | `"PageNotFound"`        |
+| [message](#message) | [string](../../types/primitive/string.md)                     | 에러 메세지        | `"could not find page"` |
+| [payload](#payload) | (각 [type](#type)에 따라 다름, 하단 참고)                     | 에러 데이터        |                         |
 
 ### status
 
@@ -23,7 +23,7 @@ import APITable from '@site/src/components/APITable';
 
 대부분의 경우, 모든 에러는 알맞은 상태 코드와 함께 전달되기 때문에 해당 값을 읽을 필요가 없습니다.
 
-`enum` 타입이며, 아래와 같은 값을 가집니다.
+`Enum<string>` 타입이며, 아래와 같은 값을 가집니다.
 
 | Value | Meaning                                                                         | Note                                                                                                                                                                           |
 | ----- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -80,7 +80,7 @@ import APITable from '@site/src/components/APITable';
 
 어떤 에러 종류([type](#error-type))인지에 따라 값이 다르며, 값이 없을 수도 있습니다.
 
-값이 없는 경우 `null`, 값이 있는 경우 `null`이 아닌 다른 값을 가지며 두 가지 경우를 가진 enum으로 표현할 수 있습니다.
+값이 없는 경우 `null`, 값이 있는 경우 `null`이 아닌 다른 값(실제 데이터)을 가집니다.
 
 | Value       | Note          |
 | ----------- | ------------- |

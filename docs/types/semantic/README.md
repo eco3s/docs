@@ -6,7 +6,7 @@ import DocCardList from '@theme/DocCardList';
 
 예를 들어 [Date](./date.md) 타입은 내부적으로 각 언어와 DB에 맞는 적절한 날짜 자료형을 사용할 수 있지만 JSON이 이 Date형식을 지원하지 않으므로 전송시 UNIX 타임스탬프로 변환 후 실제로는 [integer](../primitive/integer.md) 타입으로 정보를 주고받습니다.
 
-또는 각 기본 타입들을 상속받지만 제한된 값들 중에서만 선택이 가능한 `enum`도 Semantic type에 포함될 수 있습니다.
+또는 각 기본 타입들을 상속받지만 제한된 값들 중에서만 선택이 가능한 [`Enum<T>`](../README.md#enum)도 Semantic type에 포함될 수 있습니다.
 
 ## Naming Convention
 
