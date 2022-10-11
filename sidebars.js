@@ -67,7 +67,11 @@ const sidebars = {
 		},
 		{
 			API: {
-				users: ['api/users/get-users', 'api/users/get-user'],
+				users: [
+					'api/users/get-users',
+					'api/users/get-user',
+					'api/users/edit-user',
+				],
 				posts: [
 					'api/posts/get-posts',
 					'api/posts/get-post',
