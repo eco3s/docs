@@ -63,6 +63,7 @@ const sidebars = {
 					'api/posts/get-post',
 					'api/posts/create-post',
 					'api/posts/edit-post',
+					'api/posts/delete-post',
 				],
 			},
 		},
