@@ -19,8 +19,8 @@ const config = {
 	favicon: 'img/favicon.ico',
 
 	i18n: {
-		defaultLocale: 'ko-kr',
-		locales: ['ko-kr'],
+		defaultLocale: 'en',
+		locales: ['en'],
 	},
 
 	presets: [
@@ -90,10 +90,10 @@ const config = {
 						type: 'docsVersionDropdown',
 						position: 'right',
 					},
-					{
-						type: 'localeDropdown',
-						position: 'right',
-					},
+					// {
+					// 	type: 'localeDropdown',
+					// 	position: 'right',
+					// },
 				],
 				hideOnScroll: true,
 			},
