@@ -9,7 +9,7 @@ tags:
 
 :::info
 
-인증이 필요한 API입니다.
+[인증](../auth/README.md#authorization)이 필요한 API입니다.
 
 :::
 
