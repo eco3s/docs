@@ -74,7 +74,7 @@ const sidebars = {
 						type: 'doc',
 						id: 'api/auth/README',
 					},
-					items: ['api/auth/signup'],
+					items: ['api/auth/signup', 'api/auth/signin'],
 				},
 				{
 					users: [
