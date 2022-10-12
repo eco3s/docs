@@ -31,17 +31,17 @@ tags:
 
 ### Body
 
-:::note
+:::info
 
-이 타입은 [User](../../types/schema/user.md)의 부분 타입(Subset)입니다.
+[UserInit](../../types/schema/user-init) 타입을 전달합니다.
 
 :::
 
-| Name                                    | Type                                       | Note                    |
-| --------------------------------------- | ------------------------------------------ | ----------------------- |
-| [name](../../types/schema/user.md#name) | [string](../../types/primitive/string.md)? | 새로 변경할 유저 닉네임 |
+:::tip
 
 모든 필드는 필수가 아닙니다. 수정하고자 하는 필드만 넣을 수 있습니다.
+
+:::
 
 ## Response
 
