@@ -66,21 +66,32 @@ const sidebars = {
 			],
 		},
 		{
-			API: {
-				users: [
-					'api/users/get-users',
-					'api/users/get-user',
-					'api/users/edit-user',
-					'api/users/delete-user',
-				],
-				posts: [
-					'api/posts/get-posts',
-					'api/posts/get-post',
-					'api/posts/create-post',
-					'api/posts/edit-post',
-					'api/posts/delete-post',
-				],
-			},
+			API: [
+				{
+					type: 'category',
+					label: 'auth',
+					link: {
+						type: 'doc',
+						id: 'api/auth/README',
+					},
+					items: ['api/auth/signup'],
+				},
+				{
+					users: [
+						'api/users/get-users',
+						'api/users/get-user',
+						'api/users/edit-user',
+						'api/users/delete-user',
+					],
+					posts: [
+						'api/posts/get-posts',
+						'api/posts/get-post',
+						'api/posts/create-post',
+						'api/posts/edit-post',
+						'api/posts/delete-post',
+					],
+				},
+			],
 		},
 	],
 }
