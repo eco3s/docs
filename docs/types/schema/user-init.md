@@ -16,8 +16,8 @@ tags:
 
 ## Type
 
-| Included Fields |
-| --------------- |
-| name            |
+| Included Fields        |
+| ---------------------- |
+| [name](./user.md#name) |
 
 유저를 생성하는 데 닉네임이 반드시 필요합니다.

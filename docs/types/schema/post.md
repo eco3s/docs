@@ -3,9 +3,9 @@ tags:
     - Schema
 ---
 
-# Post
-
 import APITable from '@site/src/components/APITable';
+
+# Post
 
 하나의 글을 표현하는 자료형입니다.
 

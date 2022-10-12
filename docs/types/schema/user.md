@@ -3,11 +3,17 @@ tags:
     - Schema
 ---
 
+import APITable from '@site/src/components/APITable';
+
 # User
 
 해당 서비스의 이용자를 표현하는 스키마입니다.
 
 ## Type
+
+```mdx-code-block
+<APITable>
+```
 
 | Name      | Type                                      | Note                                   | Modifiable | Example                   |
 | --------- | ----------------------------------------- | -------------------------------------- | ---------- | ------------------------- |
@@ -16,7 +22,11 @@ tags:
 | name      | [string](../../types/primitive/string.md) | 해당 유저의 닉네임                     | true       | `"sinbe3673"`             |
 | profile   | [Image](../../types/semantic/image.md)    | 해당 유저의 프로필 사진을 가리키는 URL | false      | (하단 예제 참고)          |
 
-### Id
+```mdx-code-block
+</APITable>
+```
+
+### id
 
 해당 유저의 UUID입니다.
 
