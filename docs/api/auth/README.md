@@ -60,7 +60,7 @@ Connection: keep-alive
 
 :::caution
 
-회원가입/로그인시 사용하는 `id_token`도 동일한 방법으로 Authorization 헤더에 넣음으로써 서버에 보내줍니다.
+회원가입/로그인시 사용하는 `id_token`은 [Sign Up](./signup.md)/[Sign In](./signin.md) 요청시 Body에 넣음으로써 서버에 보내줍니다.
 
 하지만, `id_token`과 인증용으로 따로 발급받은 토큰은 다릅니다.
 
