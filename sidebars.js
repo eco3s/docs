@@ -50,6 +50,7 @@ const sidebars = {
 					},
 					items: [
 						'types/schema/user',
+						'types/schema/user-init',
 						'types/schema/post',
 						'types/schema/post-preview',
 					],
