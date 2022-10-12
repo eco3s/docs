@@ -52,6 +52,7 @@ const sidebars = {
 						'types/schema/user',
 						'types/schema/user-init',
 						'types/schema/post',
+						'types/schema/post-init',
 						'types/schema/post-preview',
 					],
 				},
