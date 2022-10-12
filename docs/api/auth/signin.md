@@ -11,9 +11,9 @@ tags:
 
 ### Body
 
-| Name  | Type                                   | Note              | Example | Required |
-| ----- | -------------------------------------- | ----------------- | ------- | -------- |
-| token | [Token](../../types/semantic/token.md) | 전달할 `id_token` |         | true     |
+| Name  | Type                                   | Note              | Example |
+| ----- | -------------------------------------- | ----------------- | ------- |
+| token | [Token](../../types/semantic/token.md) | 전달할 `id_token` |         |
 
 Firebase 인증을 통해 받은 `id_token`을 전달합니다.
 
