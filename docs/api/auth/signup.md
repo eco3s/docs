@@ -11,10 +11,10 @@ tags:
 
 ### Body
 
-| Name  | Type                                     | Note                              |
-| ----- | ---------------------------------------- | --------------------------------- |
-| token | [Token](../../types/semantic/token.md)   | 전달할 `id_token`                 |
-| init  | [UserInit](../../types/schema/user-init) | 새 유저를 생성할 때 필요한 데이터 |
+| Name  | Type                                        | Note                              |
+| ----- | ------------------------------------------- | --------------------------------- |
+| token | [Token](../../types/semantic/token.md)      | 전달할 `id_token`                 |
+| init  | [UserInit](../../types/schema/user-init.md) | 새 유저를 생성할 때 필요한 데이터 |
 
 Firebase 인증을 통해 받은 `id_token`을 전달합니다.
 

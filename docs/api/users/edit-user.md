@@ -33,7 +33,7 @@ tags:
 
 :::info
 
-[UserInit](../../types/schema/user-init) 타입을 전달합니다.
+[UserInit](../../types/schema/user-init.md) 타입을 전달합니다.
 
 :::
 
