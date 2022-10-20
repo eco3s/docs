@@ -144,6 +144,24 @@ const config = {
 				maxHeadingLevel: 5,
 			},
 		}),
+
+	webpack: {
+		jsLoader: isServer => ({
+			loader: require.resolve('swc-loader'),
+			options: {
+				jsc: {
+					parser: {
+						syntax: 'typescript',
+						tsx: true,
+					},
+					target: 'es2021',
+				},
+				module: {
+					type: isServer ? 'commonjs' : 'es6',
+				},
+			},
+		}),
+	},
 }
 
 module.exports = config
