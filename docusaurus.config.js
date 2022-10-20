@@ -75,6 +75,10 @@ const config = {
 						'<생태계 생생생>은 대한민국에 서식하는 다양한 생태계 교란종들을 추적하고, 관련 자료를 공유하고, 신고 알림을 수신할 수 있는 종합 서비스입니다.',
 				},
 				{
+					name: 'theme-color',
+					content: '#1EB79A',
+				},
+				{
 					name: 'og:image',
 					content: `${baseUrl}img/banner.png`,
 				},
