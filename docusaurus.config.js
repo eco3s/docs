@@ -6,13 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const math = require('remark-math')
 const katex = require('rehype-katex')
 
+const baseUrl = '/docs/'
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: 'Eco3s',
 	tagline:
 		'Eco3s는 국내의 생태계 유해종을 발견하고 관련 정보를 손쉽게 공유할 수 있는 서비스입니다.',
 	url: 'https://eco3s.github.io/',
-	baseUrl: '/docs/',
+	baseUrl,
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 
@@ -74,7 +76,7 @@ const config = {
 				},
 				{
 					name: 'og:image',
-					content: '/img/banner.png',
+					content: `${baseUrl}img/banner.png`,
 				},
 				{
 					name: 'og:image:width',
