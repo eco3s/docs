@@ -1,0 +1,27 @@
+{
+	"short_name": "Eco3s Docs",
+	"name": "Eco3s API Documentation",
+	"icons": [
+		{
+			"src": "/docs/img/logo.svg",
+			"type": "image/svg+xml",
+			"sizes": "150x150"
+		},
+		{
+			"src": "/docs/img/pwa/512x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+		{
+			"src": "/docs/img/pwa/192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	],
+	"start_url": "./",
+	"background_color": "#2e8555",
+	"display": "minimal-ui",
+	"scope": "./",
+	"theme_color": "#2e8555",
+	"description": "Eco3s는 국내의 생태계 유해종을 발견하고 관련 정보를 손쉽게 공유할 수 있는 서비스입니다."
+}
