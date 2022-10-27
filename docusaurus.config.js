@@ -195,6 +195,37 @@ const config = {
 			},
 		}),
 	},
+
+	plugins: [
+		[
+			'@docusaurus/plugin-pwa',
+			{
+				debug: true,
+				offlineModeActivationStrategies: [
+					'appInstalled',
+					'standalone',
+					'queryString',
+				],
+				pwaHead: [
+					{
+						tagName: 'link',
+						rel: 'icon',
+						href: '/docs/img/logo.svg',
+					},
+					{
+						tagName: 'link',
+						rel: 'manifest',
+						href: '/docs/manifest.json',
+					},
+					{
+						tagName: 'meta',
+						name: 'theme-color',
+						content: '#2e8555',
+					},
+				],
+			},
+		],
+	],
 }
 
 module.exports = config
